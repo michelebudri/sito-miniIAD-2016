@@ -1,0 +1,106 @@
+h2 {
+	font-size: 40px;
+}
+
+.counter.hours,
+.counter.minutes, 
+.counter.seconds,
+.counter.hours > div,
+.counter.minutes > div, 
+.counter.seconds > div{
+	display: none;
+}
+
+#c4p,
+#location {
+	background: rgba(239,127,26,0.5);
+}
+
+#programma,
+#press,
+#staytuned {
+	background: rgba(239,127,26, 0.1);
+}
+
+#sponsor,
+#staff
+{
+	background: rgba(239,127,26, 0);
+}
+
+.elenco-argomenti li {
+	margin-top: 1.5em;
+	text-align: justify;
+}
+
+.sala-a {
+	background-color: rgba(4,89,35,0.4);
+}
+
+.sala-b {
+	background-color: rgba(4,89,35,0.2);
+}
+
+tr {
+	border-top: 1px solid #ccc;
+}
+
+.sala-titolo {
+	font-weight: bold;
+    font-size: 1.5em;
+}
+
+ul.list-inline.banner-social-buttons li a {
+	border: 1px solid rgba(43,42,41, 0.4);
+		color: rgb(239,127,26);
+}
+
+ul.list-inline.banner-social-buttons li a span {
+
+}
+
+.btn-default {
+    border: 1px solid rgb(4,89,35);
+    color: rgb(4,89,35);
+    background-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus {
+    border: 1px solid rgb(4,89,35);
+    outline: none;
+    color: #ffffff;
+    background-color: rgb(4,89,35);
+}
+
+.counter-block {
+    float: none;
+    margin-right: 0;
+}
+
+.submit-c4p {
+    border: 1px dotted white;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+		#carousel-example-generic {
+		margin-left: 20% !important;
+		margin-right: 20% !important;
+	}
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#carousel-example-generic {
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+	}
+} 
+
+@media (max-width: 479px) { 
+	#carousel-example-generic {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
