@@ -73,6 +73,19 @@ dl {
 }
 .staff_member_img {
 	height: 150px;
+	padding-bottom: 0.5em;
+	transition-duration: 1s;
+}
+
+.staff_member_img:hover {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition-duration: 0.5s;
+}
+
+.staff_member_name {
+	font-size: 2rem;
+    color: rgb(4,89,35);
 }
 
 table.prtbl {
