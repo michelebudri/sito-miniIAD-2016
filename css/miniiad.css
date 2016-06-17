@@ -72,9 +72,9 @@ dl {
 	margin: 10px;
 }
 .staff_member_img {
-	height: 150px;
+	height: 6em;
 	padding-bottom: 0.5em;
-	transition-duration: 1s;
+	transition-duration: 0.5s;
 }
 
 .staff_member_img:hover {
@@ -84,7 +84,7 @@ dl {
 }
 
 .staff_member_name {
-	font-size: 2rem;
+	font-size: 1.5rem;
     color: rgb(4,89,35);
 }
 
