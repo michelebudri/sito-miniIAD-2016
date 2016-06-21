@@ -8,6 +8,10 @@ h2 {
 	font-size: 40px;
 }
 
+a {
+	color: rgb(4,89,35);
+}
+
 .counter.hours,
 .counter.minutes, 
 .counter.seconds,
@@ -18,7 +22,8 @@ h2 {
 }
 
 #c4p,
-#location {
+#location,
+#sponsor {
 	background: rgba(239,127,26,0.5);
 }
 
@@ -28,7 +33,6 @@ h2 {
 	background: rgba(239,127,26, 0.1);
 }
 
-#sponsor,
 #press,
 #staff
 {
@@ -54,12 +58,12 @@ tr {
 
 .sala-titolo {
 	font-weight: bold;
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 ul.list-inline.banner-social-buttons li a {
 	border: 1px solid rgba(43,42,41, 0.4);
-		color: rgb(239,127,26);
+	color: rgb(239,127,26);
 }
 
 ul.list-inline.banner-social-buttons li a span {
@@ -67,27 +71,27 @@ ul.list-inline.banner-social-buttons li a span {
 }
 
 .btn-default {
-    border: 1px solid rgb(4,89,35);
-    color: rgb(4,89,35);
-    background-color: transparent;
+	border: 1px solid rgb(4,89,35);
+	color: rgb(4,89,35);
+	background-color: transparent;
 }
 
 .btn-default:hover, .btn-default:focus {
-    border: 1px solid rgb(4,89,35);
-    outline: none;
-    color: #fff !important;
-    background-color: rgb(4,89,35);
+	border: 1px solid rgb(4,89,35);
+	outline: none;
+	color: #fff !important;
+	background-color: rgb(4,89,35);
 }
 
 .counter-block {
-    float: none;
-    margin-right: 0;
+	float: none;
+	margin-right: 0;
 }
 
 .submit-c4p {
-    border: 1px dotted white;
-    padding: 0.5em;
-    border-radius: 5px;
+	border: 1px dotted white;
+	padding: 0.5em;
+	border-radius: 5px;
 }
 
 .speaker-img {
@@ -101,52 +105,179 @@ ul.list-inline.banner-social-buttons li a span {
 }
 
 .speaker-nome {
-font-size: 1.8em; font-weight: normal; margin-bottom: 0.5em; padding: 0;
+	font-size: 1.8em; font-weight: normal; margin-bottom: 0.5em; padding: 0;
 }
 
 .speaker-posizione {
-font-size: 1em; text-transform: uppercase; line-height: 1.5em; font-weight: bold; margin-bottom: 0.5em; padding: 0;
+	font-size: 1em; text-transform: uppercase; line-height: 1.5em; font-weight: bold; margin-bottom: 0.5em; padding: 0;
 }
 
 .speaker-riassunto {
-text-align: justify; line-height: 18px; margin-bottom: 0.5em; padding: 0;
+	text-align: justify; line-height: 18px; margin-bottom: 0.5em; padding: 0;
 }
 
 .speaker-talk{
-text-align: center; line-height: 1.5em; margin-bottom: 0.5em; padding: 0; font-style: italic;
-text-decoration: underline;
+	text-align: center; line-height: 1.5em; margin-bottom: 0.5em; padding: 0; font-style: italic;
+	text-decoration: underline;
 } 
 
 .submit-collaboration {
-    border: 1px solid rgba(239,127,26,1);
-    padding: 0.5em;
-    border-radius: 5px;
-    background-color: rgba(239,127,26,0.2);
-    font-style: italic;
+	border: 1px solid rgba(239,127,26,1);
+	padding: 0.5em;
+	border-radius: 5px;
+	background-color: rgba(239,127,26,0.2);
+	font-style: italic;
+}
+
+.submit-collaboration.sponsor {
+	background-color: #fff;
 }
 
 .submit-collaboration span {
 	font-size: 2rem;
 }
 
+.submit-c4p.invia {
+	font-size: 4rem; 
+	font-size: 4rem; 
+	text-shadow: 5px 5px 5px #fff; 
+	letter-spacing: 0.1em; 
+	margin-bottom: 0.5em;
+	border: none;
+}
+
+.lavori-in-corso {
+	font-size: 1.5em; 
+	font-style: italic;
+}
+
+.pubblicazione-programma {
+	font-size: 1.5em; 
+	line-height: 1.5em;
+}
+
+.volontari {
+	color: #fff; 
+	font-size: 5rem; 
+	padding-top: 2em; 
+	padding-bottom: 1em; 
+	font-weight: bold; 
+	font-style: italic;
+}
+
+.diventa-volontario {
+	font-size: 4rem; 
+	text-shadow: 5px 5px 5px #fff;
+	letter-spacing: 0.1em;
+}
 @media (min-width: 768px) and (max-width: 992px) {
-		#carousel-example-generic {
-		margin-left: 20% !important;
-		margin-right: 20% !important;
-	}
+
 }
 
 
 @media (min-width: 480px) and (max-width: 767px) {
-	#carousel-example-generic {
-		margin-left: 15% !important;
-		margin-right: 15% !important;
+	h2 {
+		font-size: 30px;
 	}
+
+	.speaker-nome {
+		font-size: 1.3em;
+	}
+
+	.speaker-posizione {
+		font-size: 0.8em;
+	}
+
+	.lavori-in-corso {
+		font-size: 1.2em;
+	}
+
+	.pubblicazione-programma {
+		font-size: 1.3em;
+	}
+
+	.volontari {
+		font-size: 3rem; line-height: 1.3em;
+	}
+
+	.diventa-volontario {
+		font-size: 3rem;
+	}
+	#map {
+		margin-top: 0;
+		height: auto; 
+	}
+
+	.location-info {
+		padding-top: 0.5em;
+		text-align: center !important;
+	}
+
 } 
 
 @media (max-width: 479px) { 
-	#carousel-example-generic {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.brand-frame {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.counter-block .counter.with-hundreds {
+		width: 180px;
+	}
+
+	.submit-c4p.invia {
+		font-size: 3rem;
+	}
+
+	.speaker-nome {
+		font-size: 1.3em;
+	}
+
+	.speaker-posizione {
+		font-size: 0.8em;
+	}
+
+	.lavori-in-corso {
+		font-size: 1.2em;
+	}
+
+	.pubblicazione-programma {
+		font-size: 1.3em;
+	}
+
+	.btn-circle {
+		width: 50px;
+		height: 50px;
+		margin-top: 10px;
+		padding: 0px 8px;
+		border: 2px solid #444444;
+		border-radius: 35px;
+		font-size: 35px; 
+	}
+
+	.volontari {
+		font-size: 3rem; line-height: 1.3em;
+	}
+
+	.diventa-volontario {
+		font-size: 3rem;
+	}
+
+	.staff_member { 
+		width: 9em;
+	}
+
+	#cookie-law p {
+		font-size: 0.7em;
+	}
+
+	#map {
+		margin-top: 0;
+		height: auto; 
 	}
 }
