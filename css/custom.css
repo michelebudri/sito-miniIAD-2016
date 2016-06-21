@@ -170,6 +170,11 @@ ul.list-inline.banner-social-buttons li a span {
 	text-shadow: 5px 5px 5px #fff;
 	letter-spacing: 0.1em;
 }
+
+img.resp.business {
+	width: 50%;
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
 
 }
