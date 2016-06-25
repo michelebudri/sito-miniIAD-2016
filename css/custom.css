@@ -3,6 +3,16 @@
 	padding: 0;
 }
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
 
 h2 {
 	font-size: 40px;
@@ -27,12 +37,13 @@ a {
 	background: rgba(239,127,26,0.5);
 }
 
-#programma,
+#iscriviti,
 #partner,
 #staytuned {
 	background: rgba(239,127,26, 0.1);
 }
 
+#speaker,
 #press,
 #staff
 {
@@ -175,8 +186,11 @@ img.resp.business {
 	width: 50%;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+.navbar-toggle .icon-bar {
+	background-color: #ccc;
+}
 
+@media (min-width: 768px) and (max-width: 992px) {
 }
 
 
